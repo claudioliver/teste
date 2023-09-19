@@ -6,6 +6,9 @@ CREATE TABLE fornecedores (
     cnpj VARCHAR(18) 
 
 );
+insert into fornecedores (id_fornecedor, nome, cnpj)
+values 
+(100, 'Nestlé', '00.000.000/0000-00');
 
 CREATE TABLE produtos (
     id_produto serial PRIMARY KEY UNIQUE,
